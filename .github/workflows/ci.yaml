@@ -145,7 +145,7 @@ jobs:
       - name: Set up Go for govex
         uses: actions/setup-go@v5
         with:
-          go-version: '1.24'
+          go-version: '1.27'
 
       - name: Convert and merge results with govex
         continue-on-error: true
